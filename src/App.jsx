@@ -5,6 +5,9 @@ export default function App() {
   const [response, setResponse] = useState(false);
 
   function handleSubmit() {
+    if (!rateButton) {
+      return alert("Please select a rating 😀");
+    }
     setResponse(!response);
   }
 

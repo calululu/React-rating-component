@@ -29,6 +29,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: var(--very-dark-blue);
+  font-size: 1.5rem;
 }
 
 p {
@@ -62,15 +63,15 @@ h1 {
 .container-big {
   max-width: 100%;
   max-height: 100%;
-  margin: 0 max(25%, 10rem);
+  margin: 0 max(30%, 5rem);
   padding: 3rem;
 
   background-image: linear-gradient(var(--dark-blue), hsl(216, 14%, 14%));
   border-radius: 30px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .container-big {
-    margin: 0 50px;
+    margin: 0 10%;
   }
 }
 
